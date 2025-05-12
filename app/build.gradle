@@ -16,6 +16,13 @@ android {
         }
     }
     namespace 'rkr.simplekeyboard.inputmethod'
+    buildFeatures {
+        buildConfig true
+    }
+    lint {
+        checkReleaseBuilds false
+        abortOnError false
+    }
 }
 
 dependencies {

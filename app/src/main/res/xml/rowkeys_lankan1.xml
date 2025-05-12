@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<merge
+    xmlns:latin="http://schemas.android.com/apk/res-auto"
+>
+    <switch>
+        <case latin:showNumberRow="true">
+            <!-- q -->
+           <Key
+               latin:keySpec="&#xE09E;"/>
+            <!-- w -->
+           <Key
+               latin:keySpec="&#xE053;" />
+            <!-- e -->
+            <Key
+                latin:keySpec="&#xE040;"
+                latin:moreKeys="&#xE05B;,&#xE05C;,&#xE05A;,&#xE05E;,&#xE05F;,&#xE05D;" />
+            <!-- r -->
+            <Key
+                latin:keySpec="&#xE04A;" />
+            <!-- t -->
+            <Key
+                latin:keySpec="&#xE03F;" />
+            <!-- y -->
+            <Key
+                latin:keySpec="&#xE04E;" />
+            <!-- u -->
+            <Key
+                latin:keySpec="&#xE04C;"
+                latin:moreKeys="&#xE06D;,&#xE06E;,&#xE06C;,&#xE070;,&#xE071;,&#xE06F;" />
+            <!-- i -->
+            <Key
+                latin:keySpec="&#xE044;"
+                latin:moreKeys="&#xE061;,&#xE062;,&#xE060;,&#xE064;,&#xE065;,&#xE063;" />
+            <!-- o -->
+            <Key
+                latin:keySpec="&#xE049;"
+                latin:moreKeys="&#xE067;,&#xE068;,&#xE066;,&#xE06A;,&#xE06B;,&#xE069;" />
+            <!-- p -->
+            <Key
+                latin:keySpec="&#xE03E;" />
+        </case>
+        <default>
+            <!-- q -->
+            <Key
+                latin:keySpec="&#xE09E;"
+                latin:keyHintLabel="1"
+                 latin:additionalMoreKeys="1" />
+            <!-- w -->
+            <Key
+                 latin:keySpec="&#xE053;"
+                 latin:keyHintLabel="2"
+                 latin:additionalMoreKeys="2" />
+            <!-- e -->
+            <Key
+                latin:keySpec="&#xE040;"
+                latin:moreKeys="&#xE05B;,&#xE05A;,&#xE05C;,&#xE05E;,&#xE05F;,&#xE05D;"
+                latin:keyHintLabel="3"
+                latin:additionalMoreKeys="3" />
+            <!-- r -->
+            <Key
+                latin:keySpec="&#xE04A;"
+                latin:keyHintLabel="4"
+                latin:additionalMoreKeys="4" />
+            <!-- t -->
+            <Key
+                latin:keySpec="&#xE03F;"
+                latin:keyHintLabel="5"
+                latin:additionalMoreKeys="5" />
+            <!-- y -->
+            <Key
+                latin:keySpec="&#xE04E;"
+                latin:keyHintLabel="6"
+                latin:additionalMoreKeys="6" />
+            <!-- u -->
+            <Key
+                latin:keySpec="&#xE04C;"
+                latin:moreKeys="&#xE06D;,&#xE06C;,&#xE06E;,&#xE070;,&#xE071;,&#xE06F;"
+                latin:keyHintLabel="7"
+                latin:additionalMoreKeys="7" />
+            <!-- i -->
+            <Key
+                latin:keySpec="&#xE044;"
+                latin:moreKeys="&#xE061;,&#xE060;,&#xE062;,&#xE064;,&#xE065;,&#xE063;"
+                latin:keyHintLabel="8"
+                latin:additionalMoreKeys="8" />
+            <!-- o -->
+            <Key
+                latin:keySpec="&#xE049;"
+                latin:moreKeys="&#xE068;,&#xE067;,&#xE066;,&#xE06A;,&#xE06B;,&#xE069;"
+                latin:keyHintLabel="9"
+                latin:additionalMoreKeys="9" />
+            <!-- p -->
+            <Key
+                latin:keySpec="&#xE03E;"
+                latin:keyHintLabel="0"
+                latin:additionalMoreKeys="0" />
+        </default>
+    </switch>
+</merge>

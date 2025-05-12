@@ -2487,9 +2487,67 @@ public final class KeyboardTextsTable {
         /* morekeys_i ~ */
         null, null, null, null, null, null,
         /* ~ single_quotes */
-        // U+20AD: "₭" KIP SIGN
-        /* keyspec_currency */ "\u20AD",
+        // U+20AD: "￥" KIP SIGN
+        /* keyspec_currency */ "\uFFE5",
     };
+    /* Locale lk_CN: Lankan (China) */
+    private static final String[] TEXTS_lk_CN = {
+            /* morekeys_a ~ */
+            null, null, null, null,
+            /* ~ morekeys_u */
+            // Label for "switch to alphabetic" key.
+            // U+05D0: "א" HEBREW LETTER ALEF
+            // U+05D1: "ב" HEBREW LETTER BET
+            // U+05D2: "ג" HEBREW LETTER GIMEL
+            /* keylabel_to_alpha */ "\u05D0\u05D1\u05D2",
+            /* morekeys_i ~ */
+            null, null, null,
+            /* ~ morekeys_c */
+            /* double_quotes */ "!text/double_rqm_9qm",
+            /* morekeys_s */ null,
+            /* single_quotes */ "!text/single_rqm_9qm",
+            // U+20AA: "₪" NEW SHEQEL SIGN
+            /* keyspec_currency */ "\u20AA",
+            /* morekeys_y ~ */
+            null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+            null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+            null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+            null, null, null, null, null, null, null, null, null,
+            /* ~ morekeys_swiss_row2_11 */
+            // U+2605: "★" BLACK STAR
+            /* morekeys_star */ "\u2605",
+            // The all letters need to be mirrored are found at
+            // http://www.unicode.org/Public/6.1.0/ucd/BidiMirroring.txt
+            // U+2264: "≤" LESS-THAN OR EQUAL TO
+            // U+2265: "≥" GREATER-THAN EQUAL TO
+            // U+00AB: "«" LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+            // U+00BB: "»" RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+            // U+2039: "‹" SINGLE LEFT-POINTING ANGLE QUOTATION MARK
+            // U+203A: "›" SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
+            /* keyspec_left_parenthesis */ "(|)",
+            /* keyspec_right_parenthesis */ ")|(",
+            /* keyspec_left_square_bracket */ "[|]",
+            /* keyspec_right_square_bracket */ "]|[",
+            /* keyspec_left_curly_bracket */ "{|}",
+            /* keyspec_right_curly_bracket */ "}|{",
+            /* keyspec_less_than */ "<|>",
+            /* keyspec_greater_than */ ">|<",
+            /* keyspec_less_than_equal */ "\u2264|\u2265",
+            /* keyspec_greater_than_equal */ "\u2265|\u2264",
+            /* keyspec_left_double_angle_quote */ "\u00AB|\u00BB",
+            /* keyspec_right_double_angle_quote */ "\u00BB|\u00AB",
+            /* keyspec_left_single_angle_quote */ "\u2039|\u203A",
+            /* keyspec_right_single_angle_quote */ "\u203A|\u2039",
+            /* keyspec_comma ~ */
+            null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+            null, null, null, null, null, null, null, null, null, null, null, null, null, null, null,
+            null, null, null, null, null, null, null, null, null, null, null, null,
+            /* ~ morekeys_currency_dollar */
+            // U+00B1: "±" PLUS-MINUS SIGN
+            // U+FB29: "﬩" HEBREW LETTER ALTERNATIVE PLUS SIGN
+            /* morekeys_plus */ "\u00B1,\uFB29",
+    };
+
 
     /* Locale lt: Lithuanian */
     private static final String[] TEXTS_lt = {
@@ -4393,6 +4451,7 @@ public final class KeyboardTextsTable {
         "kn_IN"  , TEXTS_kn_IN, /*   2/ 12 Kannada (India) */
         "ky"     , TEXTS_ky,    /*  10/ 92 Kirghiz */
         "lo_LA"  , TEXTS_lo_LA, /*   2/ 12 Lao (Laos) */
+        "lk_CN"  , TEXTS_lk_CN, /*   2/ 12 Lankan (China) */
         "lt"     , TEXTS_lt,    /*  18/ 22 Lithuanian */
         "lv"     , TEXTS_lv,    /*  18/ 22 Latvian */
         "mk"     , TEXTS_mk,    /*   9/ 97 Macedonian */

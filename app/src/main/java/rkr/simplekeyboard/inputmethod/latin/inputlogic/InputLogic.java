@@ -406,6 +406,7 @@ public final class InputLogic {
             case SubtypeLocaleUtils.LAYOUT_KANNADA:
             case SubtypeLocaleUtils.LAYOUT_KHMER:
             case SubtypeLocaleUtils.LAYOUT_LAO:
+            case SubtypeLocaleUtils.LAYOUT_LANKAN:
             case SubtypeLocaleUtils.LAYOUT_MALAYALAM:
             case SubtypeLocaleUtils.LAYOUT_MARATHI:
             case SubtypeLocaleUtils.LAYOUT_NEPALI_ROMANIZED:

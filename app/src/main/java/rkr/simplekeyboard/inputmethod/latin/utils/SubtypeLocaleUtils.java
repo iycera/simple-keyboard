@@ -82,6 +82,7 @@ public final class SubtypeLocaleUtils {
     private static final String LOCALE_KANNADA_INDIA = "kn_IN";
     private static final String LOCALE_KYRGYZ = "ky";
     private static final String LOCALE_LAO_LAOS = "lo_LA";
+    private static final String LOCALE_LANKAN = "za";
     private static final String LOCALE_LITHUANIAN = "lt";
     private static final String LOCALE_LATVIAN = "lv";
     private static final String LOCALE_MACEDONIAN = "mk";
@@ -162,6 +163,7 @@ public final class SubtypeLocaleUtils {
             LOCALE_KANNADA_INDIA,
             LOCALE_KYRGYZ,
             LOCALE_LAO_LAOS,
+            LOCALE_LANKAN,
             LOCALE_LITHUANIAN,
             LOCALE_LATVIAN,
             LOCALE_MACEDONIAN,
@@ -226,6 +228,7 @@ public final class SubtypeLocaleUtils {
     public static final String LAYOUT_KANNADA = "kannada";
     public static final String LAYOUT_KHMER = "khmer";
     public static final String LAYOUT_LAO = "lao";
+    public static final String LAYOUT_LANKAN = "lankan";
     public static final String LAYOUT_MACEDONIAN = "macedonian";
     public static final String LAYOUT_MALAYALAM = "malayalam";
     public static final String LAYOUT_MARATHI = "marathi";
@@ -510,6 +513,9 @@ public final class SubtypeLocaleUtils {
                     break;
                 case LOCALE_LAO_LAOS:
                     addLayout(LAYOUT_LAO);
+                    break;
+                case LOCALE_LANKAN:
+                    addLayout(LAYOUT_LANKAN);
                     break;
                 case LOCALE_MACEDONIAN:
                     addLayout(LAYOUT_MACEDONIAN);
